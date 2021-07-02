@@ -1,0 +1,25 @@
+#!/bin/sh
+#Adhitthano
+
+#Simplified command for locating and opening stuff.
+#It will look at all directories inside the one you are in.
+#You need:
+#	fzf (CLI fuzzy finder)
+#	mpv (for video)
+#	sxiv (for image)
+#	zathura (for pdf, etc.)
+#	vim, for everything else.
+# If there is another file /program you use regularly, add it to the case statement!
+
+file=$(fzf)
+
+case $file in
+	*mkv|*webm|*mp4)
+		mpv $file;;
+	*png|*jpg|*jpe|*jpeg|*gif)
+		sxiv $file;;
+	*pdf|*cbz|*cbr|*epub)
+		zathura $file;;
+	*)
+		vim $file
+esac
