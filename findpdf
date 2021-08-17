@@ -14,7 +14,7 @@
 file=$(fzf)
 
 case $file in
-	*mkv|*webm|*mp4)
+	*mkv|*webm|*mp4|*mp3)
 		mpv $file;;
 	*png|*jpg|*jpe|*jpeg|*gif)
 		sxiv $file;;
