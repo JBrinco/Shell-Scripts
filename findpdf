@@ -11,7 +11,11 @@
 #	vim, for everything else.
 # If there is another file /program you use regularly, add it to the case statement!
 
+####BUG#####
+#Wont work for names that contain spaces, because the shell tries to separate them into different srguments when executing the command. Needs some sort of sed substtution, space for \ .
+
 file=$(fzf)
+
 
 case $file in
 	*mkv|*webm|*mp4|*mp3|*opus|*m4a)
