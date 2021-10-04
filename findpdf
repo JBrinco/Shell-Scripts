@@ -1,5 +1,6 @@
 #!/bin/sh
-#Adhitthano
+#Copyright (c) 2021 João Brinco
+#Released under GPL v3
 
 #Simplified command for locating and opening stuff.
 #It will look at all directories inside the one you are in.

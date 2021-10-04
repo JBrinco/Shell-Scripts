@@ -1,3 +1,5 @@
 #!/bin/sh
+#Copyright (c) 2021 João Brinco
+#Released under GPL v3
 
- mpv --vid=no 'https://www.youtube.com/watch?v=5qap5aO4i9A'
+mpv --vid=no 'https://www.youtube.com/watch?v=5qap5aO4i9A'
