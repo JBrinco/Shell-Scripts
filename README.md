@@ -7,7 +7,7 @@ Search manpages in dmenu and view then in zathura. Taken from github.com/lukesmi
 
 ## findpdf
 
-Look for documents with fzf (CLI fuzzy finder) and open them with the respective programs, depending on the file extention. Cannot handle file names with whitespaces as of now (the Shell performs expansion and treats them as different).
+Look for documents with fzf (CLI fuzzy finder) and open them with the respective programs, depending on the file extention.
 
 ## chilledcow
 
