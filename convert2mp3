@@ -1,0 +1,3 @@
+find . -name '*.m4a' | while read f; do
+    ffmpeg -nostdin -i "$f" "${f%.*}.mp3"
+done
